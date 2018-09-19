@@ -14,8 +14,9 @@ public class Hauteskundeak {
 		}
 		return emaitza;
 	}
+
 	private void gehituMahaia(String mahai) {
-			mahaiak .add(mahai);
+		mahaiak.add(mahai);
 	}
 
 	public static void main(String[] args) {
@@ -27,8 +28,8 @@ public class Hauteskundeak {
 		h2012.gehituMahaia("Bergara");
 		h2012.gehituMahaia("Andoain");
 		h2012.gehituMahaia("Hernani");
-               
-                h2012.gehituMahaia("Ibon")012.gehituMahaia("Ibon");; 
+
+		h2012.gehituMahaia("Ibon");
 		System.out.println(h2012);
 	}
 
